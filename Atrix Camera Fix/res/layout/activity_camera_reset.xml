@@ -4,20 +4,31 @@
     android:layout_height="match_parent"
     android:padding="10dp" >
 
-    <TextView
-        android:id="@+id/textView1"
+    <CheckBox
+        android:id="@+id/chkKillGallery"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Description" />
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/chkKillGallery" />
 
     <Button
         android:id="@+id/btnKillMediaServer"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
+        android:layout_below="@+id/chkKillGallery"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="26dp"
+        android:layout_marginTop="20dp"
         android:text="@string/btnKillMediaServer" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Description" />
 
 </RelativeLayout>

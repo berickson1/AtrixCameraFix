@@ -4,5 +4,6 @@
     <string name="Description">This will kill the mediaserver process that causes the \&quot;Cannot Connect to Camera\&quot; error.  Click the button below to proceed.</string>
     <string name="title_activity_camera_reset">Atrix Camera Fix</string>
     <string name="btnKillMediaServer">Run Fix!</string>
+    <string name="chkKillGallery">Kill Gallery?</string>
 
 </resources>
